@@ -25,7 +25,7 @@ function App() {
       id: 4,
       title: "Soda pop",
       amount: 5.43,
-      date: new Date(2020, 5, 10),
+      date: new Date(2021, 5, 10),
     },
   ];
   const [expenses, setExpenses] = useState(DummyExpenses);
@@ -35,7 +35,7 @@ function App() {
       return [expense, ...prevExpense];
     });
   };
-  // JSX syntax
+  
   return (
     <div>
       <NewExpense onAddExpense={addExpenseHandler} />
