@@ -1,0 +1,35 @@
+.new-expense__controls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px solid white;
+  min-height: 10rem;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--fourth-color);
+  box-shadow: 4px 4px 6px ;
+  border-radius: 12px;
+}
+
+.new-expense__control {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.1rem;
+}
+.new-expense__control input {
+  height: 2.5rem;
+  min-width: 12rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px grey;
+}
+
+.new-expense__actions button {
+  font-size: 1.2rem;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: var(--fifth-color);
+}
