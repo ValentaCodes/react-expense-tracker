@@ -6,6 +6,7 @@ import "../Expenses/styles/ExpenseItem.css";
 // functional component for our Expense Items
 const ExpenseItem = (props) => {
   return (
+    <li>
     <Card className='expense-item'>
       <ExpenseDate date={props.date} />
       <div className='expense-item__description'>
@@ -13,6 +14,7 @@ const ExpenseItem = (props) => {
         <div className='expense-item__price'>${props.amount}</div>
       </div>
     </Card>
+    </li>
   );
 };
 // exports component so we can use it in root App.js

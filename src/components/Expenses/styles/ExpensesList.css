@@ -1,0 +1,8 @@
+.expenses-list {
+    list-style: none;
+
+}
+
+.expenses-list__fallback {
+    list-style: none;
+}
