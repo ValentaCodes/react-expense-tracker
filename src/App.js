@@ -7,7 +7,7 @@ function App() {
       id: 1,
       title: "Mustache Cream",
       amount: 3.89,
-      date: new Date(2023, 11, 12),
+      date: new Date(2023, 2, 1),
     },
     {
       id: 2,
