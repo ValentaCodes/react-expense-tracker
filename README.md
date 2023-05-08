@@ -49,13 +49,15 @@
 
   Add your screenshots here:
 
-  ![ALT TEXT](URL)
+  ![Add Expense Screenshot](./public/assets/Screen%20Shot%202023-05-08%20at%201.57.41%20PM.png)
+  ![Empty Expense Screenshot](./public/assets/Screen%20Shot%202023-05-08%20at%201.57.50%20PM.png)
+  ![Expense Screenshot](./public/assets/Screen%20Shot%202023-05-08%20at%202.00.32%20PM.png)
 
 ## **Links**
   
-  Add any relevant links for this project below:
+  Visit Expense Tracker
 
-  [Your Website](URL)
+  [Here](https://spiffy-maamoul-62ab88.netlify.app)
 
 ## License
 
